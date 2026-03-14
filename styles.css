@@ -201,14 +201,14 @@ h1, h2, h3, h4 {
 /* ─── Hero ──────────────────────────────────────────────────── */
 .hero {
   position: relative;
-  min-height: 92vh;
+  min-height: 70vh; /* antes 92 */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(145deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-mid) 100%);
   overflow: hidden;
-  padding: 92px 32px 56px;
+  padding: 64px 32px 48px; /* antes 92px arriba */
 }
 
 .hero__bg-layer {
